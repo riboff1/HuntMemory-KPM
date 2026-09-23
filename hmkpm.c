@@ -25,11 +25,11 @@
 #include <uapi/asm-generic/unistd.h>
 #include <asm-generic/rwonce.h>
 
-KPM_NAME("HMKPM");
-KPM_VERSION("2.6.0");
+KPM_NAME("KPM-CHAT");
+KPM_VERSION("1.5.0");
 KPM_LICENSE("GPL v2");
-KPM_AUTHOR("Yervant7");
-KPM_DESCRIPTION("A KernelPatch Module (KPM) HMKPM");
+KPM_AUTHOR("Ribo");
+KPM_DESCRIPTION("Test KPM for kernel");
 
 static bool hook_active = true;
 static bool init_error = false;
